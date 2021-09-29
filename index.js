@@ -1,9 +1,9 @@
+var randomNumber1 = Math.floor((Math.random() * 6) + 1);
+var randomNumber2 = Math.floor((Math.random() * 6) + 1);
 var dice1 = document.querySelector(".img1");
 var dice2 = document.querySelector(".img2");
 const reloadBtn = document.querySelector(".btn-secondary");
 var heading = document.querySelector(".container h2");
-var randomNumber1 = Math.floor((Math.random() * 6) + 1);
-var randomNumber2 = Math.floor((Math.random() * 6) + 1);
 
 
 if(randomNumber1===1){ 
